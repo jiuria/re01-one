@@ -1,45 +1,128 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>康文昌的在线HTML 教学小工具</title>
-    <style>  
-      body {
-        margin: 0;
-      }
-    </style>
-  </head>
-  <body>
-    <div style="
-      background=color:#flflfl;
-      text-align:center;
-      padding:40px;
-    ">
-      <img src='https://kangwenchang.com/logo.png' alt="康文昌" width="80px" height="80px"> 
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body{
+      margin: 0;
+      height: 100vh;
+      background-color: yellow;
+      background-image: url(u=3173124640,2565776844&fm=253&fmt=auto&app=120&f=JPEG.webp);
+    }
+    /* *{
+      border: 1px solid black;
+    } */
+    .yinying{
+      box-shadow: -1px 0 1px rgb(124, 118, 118),1px 0 1px rgb(124, 118, 118), 0 -1px 1px rgb(124, 118, 118),0 1px 1px rgb(124, 118, 118);
+    }
+    .flex{
+      display: flex;
+      
+    }
+    .baise{
+      background-color: white;
+    }
+    .flex1{
+      flex:1;
+    }
+    .column{
+      flex-direction: column;
+    }
+    .mg8{
+      margin: 8px;
+    }
+    .mgr8{
+      margin-right: 8px;
+    }
+    .mat8{
+      margin-top: 8px;
+    }
+    .daohang{
+      padding: 10px 20px;
+      border-bottom: 1px solid red;
+      font-size: 13px;
+      color: #045;
+    }
+  </style>
+</head>
+<body class="flex" >
+  <!-- 侧边栏 -->
+  <div style="width: 200px;z-index: 2;" class="baise yinying">
+  <!-- 头像烂 -->
+  <div class="flex" style="background-color:yellowgreen;padding: 10px;align-items: center;justify-content: center;border-bottom: 1px solid #eee;">
+    <img src="马克思.jpeg" width="40px" height="40px" alt="头像">
+    <div style="margin-left: 18px;">卡尔·马克思</div>
+  </div>
+  <!-- 导航栏 -->
+  <div class="flex1">
+    <div class="daohang"style="background-color: yellow">Karl Heinrich Marx，1818年5月5日－1883年3月14日</div>
+    <div class="daohang"style="background-color: yellow">Karl Heinrich Marx，1818年5月5日－1883年3月14日</div>
+    <div class="daohang"style="background-color: yellow">德国的思想家、政治学家、哲学家、经济学家、革命理论家、历史学家和社会学家</div>
+    <div class="daohang"style="background-color: yellow">生活就像海洋，只有意志坚强的人，才能到达彼岸。--马克思</div>
+    <div class="daohang"style="background-color: yellow">与其用华丽的外衣装饰自己，不如用知识武装自己。--马克思</div>
+  </div>
+    <button type="button"><a href="https://baike.baidu.com/item/%E5%8D%A1%E5%B0%94%C2%B7%E9%A9%AC%E5%85%8B%E6%80%9D/158728?fr=kg_general" style="text-decoration: none;">点击了解更多马克思事迹   </button>
+  </div>
+  <div class="flex flex1 column">
+    <div style="height: 60px;z-index: 1;text-align: center;font-size: 40px;color: #0015ff;background-color: yellowgreen;background-image: url(u=3173124640,2565776844&fm=253&fmt=auto&app=120&f=JPEG.webp);" class="baise yinying"><span
+            style="font-family: 楷体; ">我心中的马克思</span></div>
+    <div style="overflow: auto" class="flex1 flex">
+      <!-- 左区 -->
+      <div style="flex:3;"class="flex column mg8">
+      <!-- 数据区 -->
+      <div class="flex">
+        <div style="height: 100px"class="flex1 baise mgr8 yinying">
+          <img src="18d8bc3eb13533fafc88f5452c48a71940345bc4.webp" width="240px" height="100px" alt="头像">
+        </div>
+        <div style="height: 100px"class="flex1 baise mgr8 yinying">
+          <img src="377adab44aed2e735a9be9f40c9afb8d86d6fa1e.webp" width="240px" height="100px" alt="头像">
+        </div>
+        <div style="height: 100px"class="flex1 baise mgr8 yinying">
+          <img src="728da9773912b31ba116ea550a836c7cdbb4e1f1.webp" width="240px" height="100px" alt="头像">
+        </div>
+        <div style="height: 100px"class="flex1 baise yinying">
+          <img src="a50f4bfbfbedab64294b9be27aadf5c579311e7c.webp" width="240px" height="100px" alt="头像">
+        </div>
+      </div>
+      <!-- 列表去 -->
+      <div class="flex column">
+        <div style="height: 160px;background-color: red;background-image: url(u=733159780,4038934835&fm=253&fmt=auto&app=138&f=JPEG.webp);" class="baise mat8 yinying">马克思主义哲学是关于自然、社会和思维发展一般规律的科学，是唯物论和
+          辩证法的统一、唯物论自然观和历史观的统一。它是一个相对真理。它是在继承
+          和发展了德国的古典哲学、英国的古典政治经济学、英国、法国的空想社会主义
+          下形成的。它的主要理论来源是辩证法和唯物论。辩证唯物主义和历史唯物主义
+          是马克思主义的两大组成部分，实践概念是它的基础。马克思主义哲学从实践
+          出发解决哲学基本问题，即思维和存在的关系问题是对人与世界的关系的
+          最高抽象。马克思主义哲学深刻地指出人与世界的关系实质上是以实践为
+          中介的人对世界的认识和改造关系。</div>
+        <div style="height: 160px;background-color: red;background-image: url(u=3173124640,2565776844&fm=253&fmt=auto&app=120&f=JPEG.webp);" class="baise mat8 yinying">马克思主义政治经济学的基本观点主要包括在马克思的重要著作《资本论》
+          中，马克思研究了资本主义经济学的理论和英国历年的经济统计资料，对资本主
+          义经济学理论进行了分析和批判。无产阶级的“全部理论内容是从研究政治经济
+          学产生的。”
+          有人认为《资本论》代表马克思的完整思想，我认为是不可取的。《资本论》
+          当然应当得到头等的重视，但《资本论》更多的是马克思在构建实现理想的原理
+          和方法，而不是完整地谈论理想本身之地。《资本论》是作为一本经济学领域划
+          时代的作品而诞生，而非哲学，它更多地象征了马克思在构造通往“共产主义”
+          之路中对于一个重要和基础方面的研究。</div>
+        <div style="height: 160px;background-color: red;background-image: url(u=3173124640,2565776844&fm=253&fmt=auto&app=120&f=JPEG.webp);" class="baise mat8 yinying">科学社会主义亦称科学共产主义。科学社会主义是关于无产阶级解放斗争的性质、条件和一般目的的学说。科学社会主义极为鲜明的实践性，使它成为行动中的马克思主义，是直接指导无产阶级及其政党全部活动，包括组织和壮大无产阶级革命队伍，揭示阶级敌人的反动本质和活动规律，制定社会主义革命和建设的路线、方针、政策等。
+        </div>
+      </div>
+      </div>
+      <div style="flex: 1;" class="flex column mgr8 mat8">
+      <!-- 消息去 -->
+      
+      <!-- 提示去 -->
+      <div style="height:150px" class="baise yinying">
+        <img src="29381f30e924b89932a7d7bbe29d47930b7bf638.webp" width="330px" height="154px" alt="头像">
+      </div>
+      <div style="height:300px" class="baise mat8 yinying">
+        <img src="e824b899a9014c08db3a9ef186e0580e7af4f487.webp" width="330px" height="300px" alt="头像">
+        </div>
+      </div>
+      <!-- 右区 -->
     </div>
-    <div style="
-      max-width:700px;
-      margin:30px auto;
-      padding:15px;
-      line-height:1.7;
-      color:red;
-    ">
-      <p>wode</p>
-      <p>wode</p>
-      <p>wode</p>
-      <p>wode</p>
-      <p>wode</p>
-    </div>
-    <div style="
-      background-color:#flflfl;
-      text-align:center;
-      padding:40px;
-      font-size:12px;
-
-    ">
-    <p>沃尔德网站</p>
-    <a href="https://kangwenchang.com/">友情链接</a>
-    </div>
-  </body>
+  </div>
+</body>
 </html>
